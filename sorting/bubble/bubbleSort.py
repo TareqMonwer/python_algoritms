@@ -1,9 +1,8 @@
 def bubble_it(arr):
-	''' Sort an array/list by small '''
+	''' Sort an array/list by smallest number '''
 
 	for i in range(len(arr)-1, 0, -1):
 		''' accessing 2nd item to last item '''
-
 		for j in range(i):
 			if arr[j] > arr[j+1]:
 				arr[j], arr[j+1] = arr[j+1], arr[j]
