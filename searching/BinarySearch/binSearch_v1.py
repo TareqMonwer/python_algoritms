@@ -1,5 +1,5 @@
 li = [1,2,3,5,6,7,8,9]
-item = 4 #try by 3,5,7 and others
+item = 2 #try by 3,5,7 and others
 start = 0
 last = len(li)-1
 mid = (start + last)//2
