@@ -30,6 +30,7 @@ class DoublyLinkedList:
             # If DLL is blank, we'll insert first node
             # at head's next. then we'll terminate from function.
             self.head.next = new_node
+            return
         
 
         # DLL is not blank, find last node and make it current_node.
